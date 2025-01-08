@@ -20,7 +20,7 @@ function NewsItem({ title, description, src, url }) {
             ? description.slice(0, 90)
             : "News is a report of a current event. It is information about something that has just happened"}
         </p>
-        <a href={url} class="btn btn-primary">
+        <a href={url} className="btn btn-primary">
           Read More
         </a>
       </div>
